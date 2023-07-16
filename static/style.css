@@ -22,3 +22,20 @@ a:hover{
 nav{
     text-align: left ;
 }
+#home{
+    display:flex;
+    color :blue;
+    font-size: xx-large;
+    justify-content: center;
+    border: 14px solid rgb(255, 255, 0);
+    background-color: blanchedalmond;
+    transition: transform 0.3s ease-in-out;
+    
+}
+#home:hover{
+    transform: translateY(-9px);
+    color: rgb(226, 5, 89);
+    background-color: aquamarine;
+    border-color: blueviolet;
+
+}
